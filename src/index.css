@@ -1,0 +1,26 @@
+/* Tailwind base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+  @apply bg-white text-gray-900 font-sans;
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: links */
+a {
+  @apply text-blue-600 hover:text-blue-700 no-underline;
+}
+
+/* Optional: buttons */
+button {
+  @apply cursor-pointer;
+}
+
+/* Optional: smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
